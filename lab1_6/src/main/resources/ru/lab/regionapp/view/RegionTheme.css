@@ -1,0 +1,157 @@
+/*
+ * Тёмная тема оформления приложения «Области и районы».
+ * Основной цвет фона: #1f2a30, акцентный цвет: #2a9d8f.
+ */
+
+/* ---------- Фон ---------- */
+.background {
+    -fx-background-color: #1f2a30;
+}
+
+/* ---------- Метки ---------- */
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 22pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #2a9d8f;
+    -fx-opacity: 1;
+}
+
+/* ---------- Таблица ---------- */
+.table-view {
+    -fx-base: #1f2a30;
+    -fx-control-inner-background: #1f2a30;
+    -fx-control-inner-background-alt: #243239;
+    -fx-background-color: #1f2a30;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-selection-bar: #2a9d8f;
+    -fx-selection-bar-non-focused: #24766c;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent derive(-fx-base, 80%) transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view .table-cell {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI";
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #2a9d8f;
+}
+
+/* ---------- Разделитель SplitPane ---------- */
+.split-pane {
+    -fx-padding: 1 0 0 0;
+    -fx-background-color: #1f2a30;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #1f2a30 transparent #1f2a30;
+    -fx-background-color: transparent, derive(#1f2a30, 20%);
+}
+
+/* ---------- Меню ---------- */
+.menu-bar {
+    -fx-background-color: derive(#1f2a30, 20%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing {
+    -fx-background-color: #2a9d8f;
+}
+
+.context-menu {
+    -fx-background-color: derive(#1f2a30, 40%);
+}
+
+.menu-item:focused {
+    -fx-background-color: #2a9d8f;
+}
+
+.menu .left-container {
+    -fx-background-color: black;
+}
+
+/* ---------- Поля ввода ---------- */
+.text-field,
+.combo-box {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+/* ---------- Кнопки ---------- */
+.button {
+    -fx-padding: 5 18 5 18;
+    -fx-border-color: #2a9d8f;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1f2a30;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 11pt;
+    -fx-text-fill: #e0e0e0;
+}
+
+.button:hover {
+    -fx-background-color: #2f3f47;
+}
+
+.button:pressed,
+.button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1f2a30;
+}
+
+.button:focused {
+    -fx-border-color: white;
+}
+
+.button:default {
+    -fx-background-color: #2a9d8f;
+    -fx-text-fill: white;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(#2a9d8f, 30%);
+}
