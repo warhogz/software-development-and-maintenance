@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <districts>
+        <district>
+            <adminCenter>Арзамас</adminCenter>
+            <area>1923.0</area>
+            <head>Иванов И.И.</head>
+            <name>Арзамасский район</name>
+            <region>Нижегородская область</region>
+        </district>
+        <district>
+            <adminCenter>Богородск</adminCenter>
+            <area>1300.0</area>
+            <head>Смирнов А.В.</head>
+            <name>Богородский район</name>
+            <region>Нижегородская область</region>
+        </district>
+        <district>
+            <adminCenter>Кстово</adminCenter>
+            <area>1203.0</area>
+            <head>Кузнецов Д.С.</head>
+            <name>Кстовский район</name>
+            <region>Нижегородская область</region>
+        </district>
+        <district>
+            <adminCenter>Павлово</adminCenter>
+            <area>1077.0</area>
+            <head>Орлова Е.Н.</head>
+            <name>Павловский район</name>
+            <region>Нижегородская область</region>
+        </district>
+        <district>
+            <adminCenter>Ковров</adminCenter>
+            <area>1999.0</area>
+            <head>Морозов К.А.</head>
+            <name>Ковровский район</name>
+            <region>Владимирская область</region>
+        </district>
+        <district>
+            <adminCenter>Суздаль</adminCenter>
+            <area>1263.0</area>
+            <head>Волкова И.Г.</head>
+            <name>Суздальский район</name>
+            <region>Владимирская область</region>
+        </district>
+        <district>
+            <adminCenter>Муром</adminCenter>
+            <area>1450.0</area>
+            <head>Лебедев Р.О.</head>
+            <name>Муромский район</name>
+            <region>Владимирская область</region>
+        </district>
+        <district>
+            <adminCenter>Аксай</adminCenter>
+            <area>1210.0</area>
+            <head>Белов С.Н.</head>
+            <name>Аксайский район</name>
+            <region>Ростовская область</region>
+        </district>
+        <district>
+            <adminCenter>Азов</adminCenter>
+            <area>2864.0</area>
+            <head>Ершова Т.В.</head>
+            <name>Азовский район</name>
+            <region>Ростовская область</region>
+        </district>
+    </districts>
+    <regions>
+        <region>
+            <adminCenter>Нижний Новгород</adminCenter>
+            <area>76624.0</area>
+            <head>Петров П.П.</head>
+            <name>Нижегородская область</name>
+        </region>
+        <region>
+            <adminCenter>Владимир</adminCenter>
+            <area>29084.0</area>
+            <head>Соколов В.М.</head>
+            <name>Владимирская область</name>
+        </region>
+        <region>
+            <adminCenter>Ростов-на-Дону</adminCenter>
+            <area>100967.0</area>
+            <head>Захаров О.Л.</head>
+            <name>Ростовская область</name>
+        </region>
+    </regions>
+</data>
